@@ -22,9 +22,16 @@ public class ConstructoresWT {
         Profesor profesor2 = new Profesor("William", "POO");
         Profesor profesor3 = new Profesor("William");
         
+        System.out.println("IMPRESION DE OBJETOS CON INTANCIACION POR MEDIO DE METODOS CONTRUCTORES");  
+        System.out.println("El estudiante " + estudiante2.getNombre() + " tiene " + estudiante2.getEdad() + " anios");
+        System.out.println("El estudiante tiene " + estudiante3.getEdad()+ " estudia " + estudiante3.getCarrera() );
+        System.out.println("El profesor " + profesor2.getNombre() + " ensenia " + profesor2.getAsignatura());
+        System.out.println("El profesor se llama " + profesor3.getNombre());
+        System.out.println("============================================================");
+        
         System.out.println("IMPRESION DE OBJETOS CON INTANCIACION POR MEDIO DE SETTERS");  
-        System.out.println(" El estudiante " + estudiante1.getNombre() + " estudia " + estudiante1.getCarrera() );
-        System.out.println(" El profesor " + profesor1.getNombre() + " ensena " + profesor1.getAsignatura());
+        System.out.println("El estudiante " + estudiante1.getNombre() + " estudia " + estudiante1.getCarrera() );
+        System.out.println("El profesor " + profesor1.getNombre() + " ensenia " + profesor1.getAsignatura());
         System.out.println("============================================================");
     }
     
