@@ -7,6 +7,20 @@ public class Persona {
     private String nombre ="";
     private int edad=0; 
  
+    public Persona(String nombre, int edad){
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+    public Persona(String nombre){
+        this.nombre = nombre;
+    }
+    public Persona(){
+        this.nombre = "Sin nombre";
+        this.edad = 0;
+    }
+    public Persona(int edad){
+        this.edad = edad;
+    }
     public String getNombre(){
         return nombre;
     }
