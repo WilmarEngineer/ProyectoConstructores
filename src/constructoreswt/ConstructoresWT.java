@@ -28,7 +28,6 @@ public class ConstructoresWT {
         System.out.println("El profesor " + profesor2.getNombre() + " ensenia " + profesor2.getAsignatura());
         System.out.println("El profesor se llama " + profesor3.getNombre());
         System.out.println("============================================================");
-        
         System.out.println("IMPRESION DE OBJETOS CON INTANCIACION POR MEDIO DE SETTERS");  
         System.out.println("El estudiante " + estudiante1.getNombre() + " estudia " + estudiante1.getCarrera() );
         System.out.println("El profesor " + profesor1.getNombre() + " ensenia " + profesor1.getAsignatura());
