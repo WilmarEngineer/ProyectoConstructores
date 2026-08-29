@@ -6,6 +6,7 @@ public class ConstructoresWT {
 
     
     public static void main(String[] args) {
+        
         //INSTANCIACION DE OBJETOS MEDIANTE SETTERS
         Estudiante estudiante1 = new Estudiante();
         estudiante1.setNombre("Wilmar Tovar");
